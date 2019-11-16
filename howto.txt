@@ -1,0 +1,18 @@
+git config "gyunseul9"
+git config "gyunseul9@gmail.com"
+git init
+git checkout -b refactoring
+git add .
+git commit -am "init"
+git push --set-upstream origin refactoring
+
+
+#configuration virtualenv
+$ virtualenv --python=python3.6 ./books
+
+#install pip3
+$ source bin/activate
+$ pip3 install -r requirements.txt
+
+#execution
+./run.sh local

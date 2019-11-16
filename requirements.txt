@@ -1,0 +1,7 @@
+pymysql
+requests
+slacker
+urllib3
+boto3
+Pillow
+
